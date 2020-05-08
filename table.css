@@ -2,7 +2,8 @@ body {
     width: 60%;
     padding: 0 20%;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: palevioletred;
     }
     
     #chart {
@@ -11,4 +12,5 @@ body {
     
     .container {
     text-align: center;
+    color: darkred; 
     }
