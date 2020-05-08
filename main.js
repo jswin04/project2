@@ -51,20 +51,20 @@ function createHighcharts(data){
     name: "Confirmed Cases",
     type: "lollipop",
     data: data[1],
-    color: "orange"
+    color: "dodgerblue"
     },
     {
     name: "Deaths",
     type: "lollipop",
     data: data[2],
-    color: "red"
+    color: "hotpink"
     }
     ],
     tooltip: {
     shared: true
     },
     legend: {
-    backgroundColor: "white",
+    backgroundColor: "lightgrey",
     shadow: true
     },
     credits: {
@@ -72,7 +72,7 @@ function createHighcharts(data){
     },
     noData: {
     style: {
-    fontSize: "16px"
+    fontSize: "19px"
     }
     }
     });
